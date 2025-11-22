@@ -1,0 +1,25 @@
+.weatherBox{
+    font-size: 1.2rem;
+    min-height: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.weatherBox button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(98, 168, 230);
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 0.6s ease-in-out;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.weatherBox button:hover{
+    background-color: rgb(13, 87, 151);
+}
+

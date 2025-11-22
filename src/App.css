@@ -1,0 +1,65 @@
+#root {
+  max-width: 1480px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.main{
+  border: 2px solid rgb(204, 204, 204);
+  background-color: rgb(98, 168, 230);
+  border-radius: 15px;
+  width: 1500px;
+  min-height: 700px;
+  box-shadow: 4px 4px 10px rgba(1, 1, 1, 0.4);
+  margin-top: 10px;
+}
+.columnn{
+  display: flex;
+  flex-direction: row;
+}
+.weatherserachbox{
+  width: 100%;
+  min-height: 200px;
+}
+.navbar{
+  width: 650px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.History{
+  width: 400px;
+}
+.popularcities{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 10px;
+}
+@media only screen and ( max-width: 1500px){
+  .main{
+    width: 1200px;
+  }
+  .popularcities{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+@media only screen and ( max-width: 1400px){
+  .popularcities{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+@media only screen and ( max-width: 1300px){
+  .main{
+    width: 1000px;
+  }
+}
+
+
+
+
+
+

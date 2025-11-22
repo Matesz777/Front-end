@@ -1,0 +1,43 @@
+.bigBoxHistory{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+.mainHistory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 260px;
+    background-color: rgb(98, 168, 230);
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.mainHistory p{
+    margin-right: 15px;
+}
+
+.favButton{
+    background-color: rgb(98, 168, 230);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 0.6s ease-in-out;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
+.favButton:hover{
+    background-color: rgb(13, 87, 151);
+    border: 1px solid white;
+    box-shadow: 4px 4px 10px rgba(1, 1, 1, 0.4);
+}
